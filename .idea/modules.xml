@@ -3,8 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ViewPagerHelper.iml" filepath="$PROJECT_DIR$/ViewPagerHelper.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/viewpagerlib/viewpagerlib.iml" filepath="$PROJECT_DIR$/viewpagerlib/viewpagerlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ViewPagerHelper.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ViewPagerHelper.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ViewPagerHelper.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ViewPagerHelper.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ViewPagerHelper.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ViewPagerHelper.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ViewPagerHelper.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ViewPagerHelper.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/viewpagerlib/ViewPagerHelper.viewpagerlib.iml" filepath="$PROJECT_DIR$/.idea/modules/viewpagerlib/ViewPagerHelper.viewpagerlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/viewpagerlib/ViewPagerHelper.viewpagerlib.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/viewpagerlib/ViewPagerHelper.viewpagerlib.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/viewpagerlib/ViewPagerHelper.viewpagerlib.main.iml" filepath="$PROJECT_DIR$/.idea/modules/viewpagerlib/ViewPagerHelper.viewpagerlib.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/viewpagerlib/ViewPagerHelper.viewpagerlib.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/viewpagerlib/ViewPagerHelper.viewpagerlib.unitTest.iml" />
     </modules>
   </component>
 </project>

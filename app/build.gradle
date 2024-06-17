@@ -2,7 +2,11 @@ apply plugin: 'com.android.application'
 
 
 android {
+
     compileSdkVersion 28
+    buildToolsVersion "28.0.3"
+
+    namespace = "com.zhengsr.viewpagerhelper"
     defaultConfig {
         applicationId "com.ist.viewpagerhelper"
         minSdkVersion 19
@@ -24,13 +28,13 @@ android {
 dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
     implementation fileTree(include: ['*.jar'], dir: 'libs')
-    androidTestCompile('androidx.test.espresso:espresso-core:3.1.0', {
-        exclude group: 'com.android.support', module: 'support-annotations'
-    })
+//    androidTestCompile('androidx.test.espresso:espresso-core:3.1.0', {
+//        exclude group: 'com.android.support', module: 'support-annotations'
+//    })
     implementation 'androidx.appcompat:appcompat:1.0.0'
     implementation 'com.github.bumptech.glide:glide:4.11.0'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
-    testCompile 'junit:junit:4.12'
+//    testCompile 'junit:junit:4.12'
     //调试的时候，可以使用这种加载 module的方式
     implementation project(':viewpagerlib')
     //implementation 'com.github.LillteZheng:ViewPagerHelper:v1.2'
